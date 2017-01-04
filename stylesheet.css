@@ -1,0 +1,27 @@
+body {
+background-image: url("http://groenesmoothie.eu/wp-content/uploads/2014/08/bigstock-White-Wood-Texture-Background-50738852-kopie.jpg");
+
+}
+
+#key, #exp, #edu, #other {
+background-color: white;
+
+}
+
+h2 { border: 1px solid black;
+border-radius: 5px;
+
+}
+
+em {
+color: darkslategray;
+}
+
+img { 
+
+height: 100px;
+width: 100px;
+border-radius: 50%;
+
+}
+
