@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+<title>Werewolf</title>
+
+</head>
+<body>
+
+<script>
+alert("You are about to play a game");
+
+var userName = prompt("Please enter your name");
+
+
+var moonPhase = prompt("What moon phase is it? Please type your choice: new, quarter, full");
+
+switch (moonPhase) { 
+case "new":
+document.write(userName + ", You take a deep breath and sigh at mundanity of your life.");
+break;
+
+case "quarter":
+document.write(userName + ", Your arms feel a little itchy today. Better look for some cream,");
+break;
+
+case "full":
+document.write("Hoowwlll!!");
+break;
+
+ default:
+
+document.write("Please refresh and try again typing in your answer correctly");
+}
+
+
+
+</script>
+
+</body>
+</html>
