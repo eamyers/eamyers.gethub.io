@@ -1,0 +1,26 @@
+.jumbotron {
+	background-image: url(jumbotron.jpg);
+	background-position: center top;
+	color: #3956c8;
+text-align: center;
+font-family: 'Julius Sans One', sans-serif;
+
+}
+p {
+	font-family: 'Raleway', sans-serif;
+}
+.thumbnails {
+	font-family: 'Raleway';
+	text-align: center;
+}
+.thumbnails img {
+	height: 320px;
+	opacity: 0.5;
+
+}
+	
+.thumbnails img:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
